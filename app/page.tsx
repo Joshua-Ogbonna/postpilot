@@ -14,7 +14,7 @@ export default function Home() {
 
           <p className="text-xl text-gray-600 max-w-2xl">
             Get personalized content suggestions for Instagram and TikTok based
-            on your profile's performance and trending topics.
+            on your {"profile's"} performance and trending topics.
           </p>
 
           {/* CTA Buttons */}

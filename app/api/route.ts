@@ -14,4 +14,5 @@ export async function GET(request: Request) {
   return NextResponse.redirect(`${requestUrl.origin}/dashboard`);
 }
 
+
 export const dynamic = "force-dynamic";

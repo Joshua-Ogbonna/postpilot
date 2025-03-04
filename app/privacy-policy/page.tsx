@@ -68,6 +68,27 @@ export default function PrivacyPolicy() {
         </p>
       </section>
 
+      <section className="mb-8" id="data-deletion">
+        <h2 className="text-xl font-semibold mb-4">7. Data Deletion</h2>
+        <p className="mb-4">You can request deletion of your data in two ways:</p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Through your account settings in the dashboard</li>
+          <li>By emailing our support team at support@yourapp.com</li>
+        </ul>
+        <p className="mt-4">
+          When you request data deletion, we will:
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Remove all your personal information</li>
+          <li>Delete your content analysis history</li>
+          <li>Remove your account and associated data</li>
+          <li>Disconnect all social media integrations</li>
+        </ul>
+        <p className="mt-4">
+          Data deletion requests are processed within 30 days.
+        </p>
+      </section>
+
       <footer className="text-sm text-gray-600 mt-16">
         Last updated: {new Date().toLocaleDateString()}
       </footer>
